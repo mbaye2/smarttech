@@ -1,0 +1,9 @@
+zone "smarttech.com" {
+    type master;
+    file "/etc/bind/db.smarttech.com";
+};
+
+zone "gestion-employes.local" {
+    type master;
+    file "/etc/bind/db.gestion-employes.local";
+};

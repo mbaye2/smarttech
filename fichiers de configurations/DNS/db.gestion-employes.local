@@ -1,0 +1,14 @@
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     gestion-employes.local. root.gestion-employes.local. (
+                            2025030401 ; Serial (changez ce numéro lors de modifications)
+                            604800     ; Refresh
+                            86400      ; Retry
+                            2419200    ; Expire
+                            604800 )   ; Negative Cache TTL
+;
+@       IN      NS      gestion-employes.local.
+@       IN      A       192.168.1.9
+www     IN      A       192.168.1.9
+
